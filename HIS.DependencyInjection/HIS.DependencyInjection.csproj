@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HIS.IRepository\HIS.IRepository.csproj" />
+    <ProjectReference Include="..\HIS.IService\HIS.IService.csproj" />
+    <ProjectReference Include="..\HIS.Models\HIS.Models.csproj" />
+    <ProjectReference Include="..\HIS.Repository\HIS.Repository.csproj" />
+    <ProjectReference Include="..\HIS.Service\HIS.Service.csproj" />
+    <ProjectReference Include="..\HIS.Share\HIS.Share.csproj" />
+  </ItemGroup>
+
+</Project>

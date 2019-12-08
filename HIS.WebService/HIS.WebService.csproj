@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HIS.DependencyInjection\HIS.DependencyInjection.csproj" />
+    <ProjectReference Include="..\HIS.IController\HIS.IController.csproj" />
+    <ProjectReference Include="..\HIS.IService\HIS.IService.csproj" />
+  </ItemGroup>
+
+
+</Project>
